@@ -2,31 +2,22 @@ import React from "react";
 
 const Footer = () => {
   const footerText = [
+    {
+        title: "github",
+        desc: "깃헙에 오시면 더 많은 소스를 볼 수 있습니다.",
+        link: "https://github.com/uihyunKimm",
+    },
       {
-          title: "youtube",
-          desc: "유튜브에 오시면 더 많은 강의를 볼 수 있습니다.",
-          link: "https://www.youtube.com/@Webstoryboy",
-      },
-      {
-          title: "github",
-          desc: "깃헙에 오시면 더 많은 소스를 볼 수 있습니다.",
-          link: "https://github.com/uihyunKimm",
+          title: "notion",
+          desc: "노션에 오시면 더 많은 소개글을 볼 수 있습니다.",
+          link: "https://www.notion.so/79716d060c534ed6abf53370aa95e5d7",
       },
       {
           title: "blog",
           desc: "블로그에 오시면 더 많은 정보를 볼 수 있습니다.",
           link: "https://uihkk.tistory.com",
       },
-      {
-          title: "gsap",
-          desc: "GSAP에 오시면 더 많은 강의를 볼 수 있습니다.",
-          link: "https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq",
-      },
-      {
-          title: "react",
-          desc: "리액트로 만든 사이트를 같이 만들어 봅니다.",
-          link: "https://github.com/webstoryboy/port2023-react",
-      }
+
   ];
     return (
         <footer id="footer" >

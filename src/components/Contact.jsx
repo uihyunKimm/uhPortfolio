@@ -4,11 +4,11 @@ const Contact = () => {
     const contactText = [
         {
             link: "https://open.kakao.com/o/gM7YLzwf",
-            title: "KAKAO : webstupids",
+            title: "KAKAO :dmlxld",
         },
         {
-            link: "mailto:webstoryboy@naver.com",
-            title: "mail : webstoryboy@naver.com",
+            link: "mailto:dmlxld@gmail.com",
+            title: "mail : dmlxld@gmail.com",
         },
     ];
     return (
