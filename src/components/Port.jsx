@@ -1,55 +1,41 @@
-import React from "react";
-import port01 from "../assets/img/port01.png";
-import port02 from "../assets/img/port02.png";
-import port03 from "../assets/img/port03.png";
-import port04 from "../assets/img/port04.png";
+import React, { useEffect, useRef } from "react";
+
+
+import { portText } from "../constants";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Port = () => {
-    const portText = [
-        {
-            num: "01",
-            subtitle: "모임 및 매칭 중심 운동 커뮤니티",
-            title: "HOT BODY",
-            desc: "운동이라는 구체적인 분야에 대한 커뮤니티가 활성화 되어있지 않다. HOT BODY 운동 커뮤니티를 통해, 커뮤니티 이외에 PT 트레이너와 모임 주선을 통해 함께하는 운동의 사회적 가치를 널리 알리겠다는 취지로 개발한 웹 사이트이다.",
-            img: port01,
-            code: "https://github.com/kimsangjunv1/-React-Portfolio",
-            view: "https://hot-body.vercel.app",
-            name: "모임 및 매칭 중심 운동 커뮤니티 | HOT BODY",
-        },
-        {
-            num: "02",
-            subtitle: "데이터 시각화",
-            title: "따릉이 Dashboard",
-            desc: "서울 공공시의 오픈 API 중 자전거 사용 통계에 대한 데이터를 rechart.js 라이브러리를 사용해서 도식화 한 프로젝트. 기존 따릉이 웹 사이트의 일부 페이지를 리뉴얼 하고 API 응답으로 받은 데이터 월/일별 통계를 차트화 했다. ",
-            img: port02,
-            code: "https://github.com/seolhee313/PORTFOLIO-REACT",
-            view: "https://dashboard-v2-coral.vercel.app/",
-            name: "천설* 포트폴리오",
-        },
-        {
-            num: "03",
-            subtitle: "열정이 넘치는 포트폴리오",
-            title: "HOT BODY",
-            desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
-            img: port03,
-            code: "https://github.com/seolhee313/PORTFOLIO-REACT",
-            view: "https://portfolio-313.web.app/",
-            name: "천설* 포트폴리오",
-        },
-        {
-            num: "04",
-            subtitle: "모던한 포트폴리오",
-            title: "HOT BODY",
-            desc: "블랙 컨셉과 애니메이션이 돋보이는 포트폴리오 사이트입니다. GSAP를 통한 애니메이션과 NEXT.js를 통해 제작된 포트폴리오입니다. pin 애니메이션을 통한 포폴 작업물의 표현 능력이 돋보이는 사이트입니다.",
-            img: port04,
-            code: "https://github.com/dlgnsrb227/portfolio-next",
-            view: "https://hoongportfolio-next.netlify.app/",
-            name: "이훈* 포트폴리오",
-        },
-        
-    ];
+    const horizontalRef = useRef(null);
+    const sectionsRef = useRef([]);
+
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+    
+        const horizontal = horizontalRef.current;
+        const sections = sectionsRef.current;
+    
+        let scrollTween = gsap.to(sections, {
+            xPercent: -120 * (sections.length - 1),
+            ease: "none",
+            scrollTrigger: {
+            trigger: horizontal,
+            start: "top 56px",
+            end: () => "+=" + horizontal.offsetWidth,
+            pin: true,
+            scrub: 1,
+            invalidateOnRefresh: true,
+            anticipatePin: 1,
+            },
+        });
+
+    return () =>{
+        scrollTween.kill();
+        };
+    }, []);
+
     return (
-        <section id="port">
+        <section id="port" ref={horizontalRef}>
             <div className="port__inner">
                 <div className="port__title">
                     portfolio <em>포폴 작업물</em>

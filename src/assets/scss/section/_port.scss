@@ -8,9 +8,7 @@
     margin-bottom: 30vh;
 
     .port__title {
-        position: sticky;
-        top: 6rem;
-        left: 0;
+        bottom: 16rem;
         width: 70%;
         height: 5vw;
         font-size: 4vw;
@@ -35,12 +33,11 @@
 
         .port__item {
             width: 500px;
-            height: 74vh;
+            height: 70vh;
             background-color:rgba(202, 221, 255, 0.493);
-            border-radius: 4%;
             padding: 2.5rem;
             margin-right: 20px;
-            z-index: 999;
+            border-radius: 1%;
 
             &.p1 {
                 background-color: var(--subBg100);
@@ -109,19 +106,6 @@
                 font-size: 1rem;
             }
             .site {
-                border: 1px solid var(--black100);
-                display: block;
-                text-align: center;
-                padding: 0.625rem 1.5rem;
-                margin-top: 1.5rem;
-                transition: all 0.2s;
-
-                &:hover {
-                    background-color: var(--black100);
-                    color: var(--white);
-                }
-            }
-            .site2 {
                 border: 1px solid var(--black100);
                 display: block;
                 text-align: center;

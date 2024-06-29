@@ -1,24 +1,9 @@
 import React from "react";
 
-const Footer = () => {
-  const footerText = [
-    {
-        title: "github",
-        desc: "깃헙에 오시면 더 많은 소스를 볼 수 있습니다.",
-        link: "https://github.com/uihyunKimm",
-    },
-      {
-          title: "notion",
-          desc: "노션에 오시면 더 많은 소개글을 볼 수 있습니다.",
-          link: "https://www.notion.so/79716d060c534ed6abf53370aa95e5d7",
-      },
-      {
-          title: "blog",
-          desc: "블로그에 오시면 더 많은 정보를 볼 수 있습니다.",
-          link: "https://uihkk.tistory.com",
-      },
+import { footerText } from "../constants";
 
-  ];
+const Footer = () => {
+  
     return (
         <footer id="footer" >
           <div className="container">

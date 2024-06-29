@@ -1,16 +1,10 @@
 import React from "react";
 
+import { contactText } from "../constants";
+
+
 const Contact = () => {
-    const contactText = [
-        {
-            link: "https://open.kakao.com/o/gM7YLzwf",
-            title: "KAKAO :dmlxld",
-        },
-        {
-            link: "mailto:dmlxld@gmail.com",
-            title: "mail : dmlxld@gmail.com",
-        },
-    ];
+
     return (
         <section id="contact">
             <div className="contact__inner">
