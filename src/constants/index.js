@@ -28,7 +28,7 @@ export const headerNav = [
 
 export const introText = {
     title: "frontend developer",
-    desc: ["talent is", "found at the end of the", "effort"]
+    desc: ["탄탄한 코드 위에 감각적인 인터페이스를 그리는 김의현입니다.", "직관적인 UI와 기억에 남는 UX를 개발하려고 노력합니다.", "도메인 지식을 바탕으로 개발의 범위를 늘려나가고 있습니다."]
 }
 
 export const skillText = [

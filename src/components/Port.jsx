@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 
-
 import { portText } from "../constants";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -42,7 +41,10 @@ const Port = () => {
                 </div>
                 <div className="port__wrap">
                     {portText.map((port, key) => (
-                        <article className={`port__item p${key + 1}`} key={key}>
+                        <article className={`port__item p${key + 1}`}
+                            key={key}
+                            ref={(el) => (sectionsRef.current[key] = el)
+                        }>
                             <span className="num">{port.num}.</span>
                             <a href={port.code} target="_blank" className="img" rel="noreferrer">
                                 <img src={port.img} alt={port.name} />
