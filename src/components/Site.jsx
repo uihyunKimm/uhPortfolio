@@ -14,14 +14,14 @@ const Site = () => {
             ],
         },
         {
-            text: ["make", "site compliant with", "react.js"],
-            title: "리액트를 이용한 사이트 제작",
-            code: "https://github.com/webstoryboy/port2023-react",
+            text: ["child mind test desktop program", "site compliant with", "XD"],
+            title: "아동기억능력 검사 프로그램 화면기획/ 웹디자인",
+            code: "https://xd.adobe.com/view/90180e3f-1f05-4ae8-9580-e6f4f2cb8499-c54b/",
             view: "https://port2023-react.netlify.app",
             info: [
-                "site coding",
-                "production period : two days",
-                "use stack : HTML5/CSS3, CSS Variable, Vite",
+                "web design",
+                "production period : two weeks",
+                "use stack : powerpoint, XD, HTML5/CSS3",
             ],
         },
         {
@@ -50,7 +50,7 @@ const Site = () => {
     return (
         <section id="site">
             <div className="site__inner">
-                <h2 className="site__title">Site coding <em>나의 작업물</em></h2>
+                <h2 className="site__title">Web Design <em>나의 작업물</em></h2>
                 <div className="site__wrap">
                     {siteText.map((site, key) => (
                         <article className={`site__item s${key+1}`} key={key}>
