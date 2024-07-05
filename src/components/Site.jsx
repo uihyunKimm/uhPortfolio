@@ -12,17 +12,20 @@ const Site = () => {
                     {designText.map((design, key) => (
                         <article className={`site__item s${key+1}`} key={key}>
                             <span className="num">{key+1}.</span>
-                            <div className="text">
-                                <div>{design.text[0]}</div>
-                                <div>{design.text[1]}</div>
-                                <div>{design.text[2]}</div>
-                            </div>
-                            <h3 className="title">
-                                {design.title}
-                            </h3>
-                            <div className="btn">
-                                <a href={design.design}>design</a>&nbsp;
-                                {design.view === "" ? <a></a>:<a href={design.view}>view</a>}
+                            <img src={design.img}></img>
+                            <div className="right">
+                                <div className="text">
+                                    <div>{design.text[0]}</div>
+                                    <div>{design.text[1]}</div>
+                                    <div>{design.text[2]}</div>
+                                </div>
+                                <h3 className="title">
+                                    {design.title}
+                                </h3>
+                                <div className="btn">
+                                    <a href={design.design}>design</a>&nbsp;
+                                    {design.view === "" ? <a></a>:<a href={design.view}>view</a>}
+                                </div>
                             </div>
                             <div className="info">
                                 <span>{design.info[0]}</span>

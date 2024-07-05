@@ -2,15 +2,21 @@ import port01 from "../assets/img/port01.png";
 import port02 from "../assets/img/port02.png";
 import port03 from "../assets/img/port03.png";
 import port04 from "../assets/img/port04.png";
+import site02 from "../assets/img/site02.png";
+import site03 from "../assets/img/site03.png";
 
 export const headerNav = [
     {
-        title: "intro",
+        title: "home",
         url: "#intro"
     },
     {
-        title: "skill",
+        title: "Intro",
         url: "#skill"
+    },
+    {
+        title: "skill",
+        url: "#skills"
     },
     {
         title: "site",
@@ -52,6 +58,7 @@ export const designText = [
         title: "파수fasoo Fireside 리디자인",
         design: "https://www.figma.com/design/w6eOshH7fDsgPalFvYJReg/Untitled?node-id=0-1&t=LxlOfafXlScaxFk6-1",
         view: "",
+        img: "",
         info: [
             "화면기획/ 웹디자인",
             "작업 : 3주",
@@ -59,10 +66,11 @@ export const designText = [
         ],
     },
     {
-        text: ["child brain test program"],
+        text: ["child brain test", "program"],
         title: "아동기억능력 검사 프로그램",
         design: "https://xd.adobe.com/view/058a7220-7cf9-49b9-afd1-f5c8538d71d5-50d9/",
         view: "",
+        img: site02,
         info: [
             "화면기획/ 웹디자인",
             "작업 : 3주",
@@ -70,10 +78,11 @@ export const designText = [
         ],
     },
     {
-        text: ["Probability Sampling website"],
+        text: ["Probability Sampling", "website"],
         title: "검사대상 표집 웹사이트",
         design: "https://xd.adobe.com/view/cda55327-7555-413c-a8bf-9d557b477a64-98f6/",
         view: "https://standpro.kr/",
+        img: site03,
         info: [
             "화면기획/ 웹디자인",
             "작업 : 3달 2주",
@@ -85,6 +94,7 @@ export const designText = [
         title: "넥스트를 이용한 사이트 제작",
         design: "https://github.com/webstoryboy/port2023-next",
         view: "https://port2023-next.netlify.app",
+        img: "",
         info: [
             "site coding",
             "production period : two days",
@@ -93,11 +103,12 @@ export const designText = [
     },
 ];
 
+
 export const portText = [
     {
         num: "01",
         subtitle: "모임 및 매칭 중심 운동 커뮤니티",
-        title: "HOT BODY",
+        title: "[팀] HOT BODY",
         desc: "운동이라는 구체적인 분야에 대한 커뮤니티가 활성화 되어있지 않다. HOT BODY 운동 커뮤니티를 통해, 커뮤니티 이외에 PT 트레이너와 모임 주선을 통해 함께하는 운동의 사회적 가치를 널리 알리겠다는 취지로 개발한 웹 사이트이다.",
         img: port01,
         code: "https://github.com/kimsangjunv1/-React-Portfolio",

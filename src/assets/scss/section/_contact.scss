@@ -15,7 +15,10 @@
   }
 
   .contact__title {
-      font-size: 6vw;
+      font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+      font-family: 'Spoqa Han Sans Neo';
       text-transform: uppercase;
       line-height: 1;
       font-weight: 800;
@@ -32,17 +35,22 @@
   .contact__text {
       width: 100%;
       height: 40vh;
-      background-color: #989bff;
+      border: 1px solid #b2b5ff79;
+      border-radius: 12px;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       position: relative;
-
+      transition: all 0.1s;
+    
+      &:hover{
+        background-color: #b2b5ff31;
+      }
       .inner_text {
-          font-size: 3vw;
-          line-height: 1;
-          font-weight: 900;
+          font-size: 2.4vw;
+          line-height: 1.2;
+          font-weight: 400;
           text-transform: uppercase;
           text-decoration: none;
           text-align: center;
@@ -50,7 +58,7 @@
           z-index: 100;
           transition: all 0.3s;
           cursor: all-scroll;
-          color: #281cad;
+          color: #b2b4ff;
 
           div{
             padding: 0.5rem;
@@ -64,7 +72,7 @@
           
 
           @media (max-width: 800px){ 
-              font-size: 24px;
+              font-size: 18px;
               padding: 0 16px;
               word-break: break-all;
           }

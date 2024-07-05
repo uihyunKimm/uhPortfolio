@@ -64,21 +64,33 @@
                     border-bottom: 1px solid var(--white3);
                     list-style-type: none;
                 }
-                li a:hover {
-                    color: var(--white2);
+                li:hover {
+                    background-color: var(--white3);
+                    border-color: transparent;
+                        a{
+                            color: #242595;
+                        }
+                        em{
+                            color: #242595;
+                        }
                 }
                 li a {
                     padding: 0.6rem 0;
-                    font-size: 14px;
+                    font-size: 15px;
+                    font-weight: 400;
                     display: inline-block;
                     text-transform: uppercase;
                     color: var(--white4);
                     text-decoration: none;
                     transition: all 0.2s;
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                }
+                li a:hover {
                 }
                 li em {
                     color: var(--white3);
-                    font-size: 12px;
+                    font-size: 14px;
                     padding-left: 10px;
                     opacity: 0;
                     transition: all 0.3s;
@@ -91,6 +103,7 @@
         .footer__right {
             text-align: center;
             text-transform: uppercase;
+            font-weight: 100;
             font-size: 12px;
             margin-bottom: 20px;
         }
