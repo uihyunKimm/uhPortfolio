@@ -32,8 +32,9 @@ const Intro = () => {
                     <div className="title_text_2">
                         지원직무
                         <div className="text">
+                            <div className="str">웹 디자이너</div>
                             <br/>
-                            <div>웹 디자이너</div>
+                            <br/>
                             <br/>
                         </div>
                     </div>
@@ -41,9 +42,10 @@ const Intro = () => {
                     <div className="title_text">
                         About
                         <div className="text">
-                            <div>{introText.desc[0]}</div>
+                            <div className="str">{introText.desc[0]}</div>
                             <div>{introText.desc[1]}</div>
                             <div>{introText.desc[2]}</div>
+                            <div>{introText.desc[3]}</div>
                         </div>
                     </div>
                 </div>

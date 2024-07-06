@@ -3,8 +3,11 @@ import port02 from "../assets/img/port02.png";
 import port03 from "../assets/img/port03.png";
 import port04 from "../assets/img/port04.png";
 import port05 from "../assets/img/port05.png";
+import site01 from "../assets/img/site01.png";
 import site02 from "../assets/img/site02.png";
 import site03 from "../assets/img/site03.png";
+import site04 from "../assets/img/site04.png";
+import site05 from "../assets/img/site05.png";
 
 export const headerNav = [
     {
@@ -35,37 +38,14 @@ export const headerNav = [
 
 export const introText = {
     title: "frontend developer",
-    desc: ["탄탄한 코드 위에 감각적인 인터페이스를 그리는 김의현입니다.", "직관적인 UI와 기억에 남는 UX를 개발하려고 노력합니다.", "도메인 지식을 바탕으로 개발의 범위를 늘려나가고 있습니다."]
+    desc: ["화면기획자 경력 3년","탄탄한 기획 위에 감각적인 인터페이스를 그리는 김의현입니다.", "직관적인 UI와 기억에 남는 UX를 기획하고, 개발하려고 노력합니다.", "도메인 지식을 바탕으로 개발의 범위를 늘려나가고 있습니다."]
 }
 
 export const designText = [
     {
-        text: ["fasoo Fireside", "redesign"],
-        title: "파수fasoo Fireside 리디자인",
-        design: "https://www.figma.com/design/w6eOshH7fDsgPalFvYJReg/Untitled?node-id=0-1&t=LxlOfafXlScaxFk6-1",
-        view: "",
-        img: "",
-        info: [
-            "화면기획/ 웹디자인",
-            "작업 : 1주",
-            "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
-        ],
-    },
-    {
-        text: ["child brain test", "program"],
-        title: "아동기억능력 검사 프로그램",
-        design: "https://xd.adobe.com/view/058a7220-7cf9-49b9-afd1-f5c8538d71d5-50d9/",
-        view: "",
-        img: site02,
-        info: [
-            "화면기획/ 웹디자인",
-            "작업 : 3주",
-            "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
-        ],
-    },
-    {
         text: ["Probability Sampling", "website"],
         title: "검사대상 표집 웹사이트",
+        desc: "희망자들의 신청을 수락해 예약을 확정하고 대상 외 자격자들의 신청 순위를 낮추는 등 관리자 페이지에서의 기능을 많이 고민하며 기획 및 디자인했다.",
         design: "https://xd.adobe.com/view/cda55327-7555-413c-a8bf-9d557b477a64-98f6/",
         view: "https://standpro.kr/",
         img: site03,
@@ -76,14 +56,54 @@ export const designText = [
         ],
     },
     {
-        text: ["make", "site compliant with", "next.js"],
-        title: "모바일 검사환경 구현",
-        design: "https://github.com/webstoryboy/port2023-next",
+        text: ["child brain test", "program"],
+        title: "아동기억능력 검사 프로그램",
+        desc: "앱 환경으로 기획 및 디자인이 되었고, 실시부터 설정 페이지까지 터치환경에 대해 고민하며 디자인을 진행할 수 있었다.",
+        design: "https://xd.adobe.com/view/058a7220-7cf9-49b9-afd1-f5c8538d71d5-50d9/",
         view: "",
-        img: "",
+        img: site02,
+        info: [
+            "화면기획/ 웹디자인",
+            "작업 : 3주",
+            "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
+        ],
+    },
+    {
+        text: ["mobile", "system development"],
+        title: "모바일 검사환경 구현",
+        desc: "웹 표준화 버전으로 모바일 검사를 가로형태로 화면을 돌려 진행하던 이전에서 모바일, 터치 형태의 화면을 전체 구성해 템플릿 확립함.",
+        design: "https://xd.adobe.com/view/ebaabb2d-2e23-4a82-a8e4-34bfd92f03c3-bef9/",
+        view: "",
+        img: site04,
         info: [
             "화면기획/ 웹디자인",
             "작업 : 4달",
+            "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
+        ],
+    },
+    {
+        text: ["tablet", "system development"],
+        title: "모바일 검사환경 구현",
+        desc: "웹/터치 환경 혼용 가능성이 있는 환경에 대한 템플릿 구축. 태블릿 환경에서 손가락에 가리지 않을 수 있도록 직접 테스트하며 환경을 개선해나감.",
+        design: "https://xd.adobe.com/view/4e532847-2f31-49ec-9dbe-9e7d6ec9a03d-1b00/",
+        view: "",
+        img: site01,
+        info: [
+            "화면기획/ 웹디자인",
+            "작업 : 4달",
+            "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
+        ],
+    },
+    {
+        text: ["chatbot Solution Development", "admin/user"],
+        title: "챗봇 관리자/사용자 환경 제작",
+        desc: "관리자 환경과 사용자 환경을 모두 고려해 제작했다. 타사와의 협업을 통해 소통하는 과정에서 부분적인 화면구성을 전달할 기회가 많았는데, 화면기획서 외에 관리자와 챗봇 파트만 디자인했다.",
+        design: "https://xd.adobe.com/view/2d7bc443-e1f3-4ec3-a048-5d4e037a89c3-7828/",
+        view: "",
+        img: site05,
+        info: [
+            "화면기획/ 웹디자인",
+            "작업 : 1주",
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
     },

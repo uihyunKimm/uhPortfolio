@@ -22,6 +22,10 @@ const Site = () => {
                                 <h3 className="title">
                                     {design.title}
                                 </h3>
+                                <h4 className="desc">
+                                    {design.desc}
+                                </h4>
+                                <br/>
                                 <div className="btn">
                                     <a href={design.design}>design</a>&nbsp;
                                     {design.view === "" ? <a></a>:<a href={design.view}>view</a>}
