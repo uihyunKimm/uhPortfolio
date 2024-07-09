@@ -149,6 +149,8 @@
         justify-content: space-around;
         align-items: center;
 
+        .scroll_on.type_bottom {transform: translate(0, 50px);}
+        
         @media (max-width: 800px){ 
         width: 100%;
         }
