@@ -43,6 +43,19 @@ export const introText = {
 
 export const designText = [
     {
+        text: ["B2C", "website"],
+        title: "소비자 친화적 웹사이트",
+        desc: "여러 사용환경을 고려한 그리드 화면 구성 자격자들의 신청 순위를 낮추는 등 관리자 페이지에서의 기능을 많이 고민하며 기획 및 디자인했다.",
+        design: "https://www.figma.com/design/6KvL80wqXs522G9eoL74GU/B2C_web?node-id=0-1&t=3RJ0eFLLm7I4aDYh-1",
+        view: "",
+        img: site03,
+        info: [
+            "화면기획/ 웹디자인",
+            "작업 : 3달",
+            "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
+        ],
+    },
+    {
         text: ["Probability Sampling", "website"],
         title: "검사대상 표집 웹사이트",
         desc: "희망자들의 신청을 수락해 예약을 확정하고 대상 외 자격자들의 신청 순위를 낮추는 등 관리자 페이지에서의 기능을 많이 고민하며 기획 및 디자인했다.",
