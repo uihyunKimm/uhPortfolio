@@ -1,6 +1,6 @@
 import React from "react";
 
-import about from "../assets/img/about.png";
+import about from "../assets/img/about2.jpg";
 import { introText } from "../constants";
 
 /* $(document).ready(function() {
