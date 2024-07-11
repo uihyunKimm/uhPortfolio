@@ -149,11 +149,11 @@
         justify-content: space-around;
         align-items: center;
 
-        .scroll_on.type_bottom {transform: translate(0, 50px);}
+/*         .scroll_on.type_bottom {transform: translate(0, 50px);}
         
         @media (max-width: 800px){ 
         width: 100%;
-        }
+        } */
         
         .title_text{
             font-size: 2vw;
@@ -193,7 +193,7 @@
         }
         .img {
             display: flex;
-            width: 40vh;
+            width: 30vh;
             height: auto;
             border-radius: 6%;
             overflow: hidden;

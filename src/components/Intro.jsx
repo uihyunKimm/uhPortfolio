@@ -54,7 +54,7 @@ const Intro = () => {
                         </g>
                     </svg>
                 </div>
-                <div className="intro__text scroll_on type_bottom">
+                <div className="intro__text"> {/* scroll_on type_bottom */}
                     <div className="img">
                         <img src={about} alt="어바웃" />
                     </div>
