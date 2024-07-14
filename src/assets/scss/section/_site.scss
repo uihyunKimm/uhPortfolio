@@ -51,6 +51,12 @@
 .site__item:nth-child(5) {
     top: 26vh;
 }
+.site__item:nth-child(6) {
+    top: 27vh;
+}
+.site__item:nth-child(7) {
+    top: 20vh;
+}
 .site__item .right {
     align-items: center;
     justify-content: center;
@@ -88,7 +94,7 @@
 .site__item .btn a {
     text-decoration: underline;
     text-transform: uppercase;
-    color: var(--black200);
+    color: #555aff;
     font-size: 1rem;
     transition: all 0.3s;
 }
@@ -166,6 +172,12 @@
         }
         .site__item_s5 {
             top: 220px;
+        }
+        .site__item_s6 {
+            top: 240px;
+        }
+        .site__item_s7 {
+            top: 260px;
         }
         .site__item .num {
             font-size: 80px;

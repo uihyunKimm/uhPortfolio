@@ -3,11 +3,13 @@ import port02 from "../assets/img/port02.png";
 import port03 from "../assets/img/port03.png";
 import port04 from "../assets/img/port04.png";
 import port05 from "../assets/img/port05.png";
+import site00 from "../assets/img/site00.png";
 import site01 from "../assets/img/site01.png";
 import site02 from "../assets/img/site02.png";
 import site03 from "../assets/img/site03.png";
 import site04 from "../assets/img/site04.png";
 import site05 from "../assets/img/site05.png";
+import site06 from "../assets/img/site06.png";
 
 export const headerNav = [
     {
@@ -43,15 +45,15 @@ export const introText = {
 
 export const designText = [
     {
-        text: ["Probability Sampling", "website"],
-        title: "검사대상 표집 웹사이트",
-        desc: "희망자들의 신청을 수락해 예약을 확정하고 대상 외 자격자들의 신청 순위를 낮추는 등 관리자 페이지에서의 기능을 많이 고민하며 기획 및 디자인했다.",
-        design: "https://xd.adobe.com/view/cda55327-7555-413c-a8bf-9d557b477a64-98f6/",
-        view: "https://standpro.kr/",
-        img: site03,
+        text: ["B2C", "website"],
+        title: "소비자 친화적 웹사이트",
+        desc: "여러 사용환경을 고려한 그리드 화면 구성 자격자들의 신청 순위를 낮추는 등 관리자 페이지에서의 기능을 많이 고민하며 기획 및 디자인했다.",
+        design: "https://www.figma.com/design/6KvL80wqXs522G9eoL74GU/B2C_web?node-id=0-1&t=3RJ0eFLLm7I4aDYh-1",
+        view: "",
+        img: site00,
         info: [
             "화면기획/ 웹디자인",
-            "작업 : 3달",
+            "작업 : 1주",
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
     },
@@ -69,15 +71,28 @@ export const designText = [
         ],
     },
     {
-        text: ["B2C", "website"],
-        title: "소비자 친화적 웹사이트",
-        desc: "여러 사용환경을 고려한 그리드 화면 구성 자격자들의 신청 순위를 낮추는 등 관리자 페이지에서의 기능을 많이 고민하며 기획 및 디자인했다.",
-        design: "https://www.figma.com/design/6KvL80wqXs522G9eoL74GU/B2C_web?node-id=0-1&t=3RJ0eFLLm7I4aDYh-1",
-        view: "",
+        text: ["Probability Sampling", "website"],
+        title: "검사대상 표집 웹사이트",
+        desc: "희망자들의 신청을 수락해 예약을 확정하고 대상 외 자격자들의 신청 순위를 낮추는 등 관리자 페이지에서의 기능을 많이 고민하며 기획 및 디자인했다.",
+        design: "https://xd.adobe.com/view/cda55327-7555-413c-a8bf-9d557b477a64-98f6/",
+        view: "https://standpro.kr/",
         img: site03,
         info: [
             "화면기획/ 웹디자인",
-            "작업 : 1주",
+            "작업 : 3달",
+            "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
+        ],
+    },
+    {
+        text: ["chatbot Solution Development", "admin/user"],
+        title: "챗봇 관리자/사용자 환경 제작",
+        desc: "관리자 환경과 사용자 환경을 모두 고려해 제작했다. 타사와의 협업을 통해 소통하는 과정에서 부분적인 화면구성을 전달할 기회가 많았는데, 화면기획서 외에 관리자와 챗봇 파트만 디자인했다.",
+        design: "https://xd.adobe.com/view/2d7bc443-e1f3-4ec3-a048-5d4e037a89c3-7828/grid",
+        view: "",
+        img: site05,
+        info: [
+            "화면기획/ 웹디자인",
+            "작업 : 1달",
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
     },
@@ -108,18 +123,19 @@ export const designText = [
         ],
     },
     {
-        text: ["chatbot Solution Development", "admin/user"],
-        title: "챗봇 관리자/사용자 환경 제작",
-        desc: "관리자 환경과 사용자 환경을 모두 고려해 제작했다. 타사와의 협업을 통해 소통하는 과정에서 부분적인 화면구성을 전달할 기회가 많았는데, 화면기획서 외에 관리자와 챗봇 파트만 디자인했다.",
-        design: "https://xd.adobe.com/view/2d7bc443-e1f3-4ec3-a048-5d4e037a89c3-7828/",
-        view: "",
-        img: site05,
+        text: ["macoo", "B2B2C", "E-commerce"],
+        title: "macoo point랜덤지급 도시락 쇼핑몰",
+        desc: "오픈마켓(O2O) + 소셜커머스 + B2C 장점을 합친 B2B2C E-commerce 컨셉. 학생 착업 초기에 작업해, 작업 초기의 실력을 확인할 수 있으며 포인트 차등 환급 시스템을 구현하느라 개발에 난항을 겪어 개발 기간이 늘어남",
+        design: "https://xd.adobe.com/view/1c8d2237-cf32-44b1-b78e-97d71b13616a-49de/",
+        view: "https://drive.google.com/file/d/1HRaLM-zjezHIZ5yuUFZMG6PCWWdZqQgi/view?usp=drive_link",
+        img: site06,
         info: [
             "화면기획/ 웹디자인",
-            "작업 : 1주",
+            "작업 : 3달",
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
     },
+    
 ];
 
 
