@@ -47,17 +47,28 @@
         margin-bottom: 1vw;
         color: var(--white2);
     }
+    em {
+        color: var(--white2);
+        color:#bbbdff;
+    }
     p {
         margin-bottom: 16vh;
+        color: #b2b4ff;
         font-size: 1.1rem;
         line-height: 1.6;
-        color: var(--white3);
-        
-        em {
-            color: var(--white2);
-            color:#3cff9e;
+        li{
+            color: var(--white3);
+            
+            em {
+                color: var(--white2);
+                color:#bbbdff;
+            }
+        }
+        .nonli {
+            list-style:none;
         }
     }
+    
 }
                     
 @media (max-width: 800px){

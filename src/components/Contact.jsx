@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
             <div className="download">
                 화면기획안/ 기타 작업물
-                <a href="https://drive.google.com/drive/folders/1cLVMKi7KyscPFzDNkqSZIrMXRXfRaflb?usp=drive_link">~2020_product_design_portfolio.pdf 다운로드</a>
+                <a href="https://drive.google.com/drive/folders/1cLVMKi7KyscPFzDNkqSZIrMXRXfRaflb?usp=drive_link">화면기획안/ 기타 작업물 조회</a>
             </div>
             <div className="download">
                 ~2020 제품디자이너 작업물
