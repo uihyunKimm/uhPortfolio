@@ -56,6 +56,10 @@
             padding: 2.5rem;
             margin-right: 20px;
             border-radius: 1%;
+
+            @media (max-width: 800px){
+                width: 80vw;
+            }
             
             &:first-child{
                 border: 2px solid #3cff9e;

@@ -92,7 +92,7 @@
 }
 .site__item .title {
     font-family: var(--mainKor-font);
-    margin-bottom: 3rem;
+    margin-bottom: 2vw;
 }
 .site__item .btn a {
     text-decoration: none;
@@ -120,7 +120,7 @@
     border-bottom: 1px solid var(--black);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5vw;
 }
 .site__item .info span {
     font-family: var(--mainKor-font);
@@ -146,9 +146,11 @@
         
         .site__item {
             width: 90%;
+            height: 80%;
             flex-direction: column;
             justify-content: center;
             text-align: center;
+            padding: 3rem;
 
             .num{
                 display: none;
@@ -194,10 +196,13 @@
             top: 20px;
         }
         .site__item .text > div {
-            font-size: 26px;
+            font-size: 21px;
+        }
+        .site__item .right .title {
+            margin-bottom: 1rem;
         }
         .site__item .info{
-            border-top: 0px solid var(--white);
+            border: 0px solid var(--white);
         }
         .site__item .info span{
             display: none;
