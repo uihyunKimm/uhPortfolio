@@ -3,6 +3,7 @@ import port02 from "../assets/img/port02.png";
 import port03 from "../assets/img/port03.png";
 import port04 from "../assets/img/port04.png";
 import port05 from "../assets/img/port05.png";
+import site001 from "../assets/img/site001.png";
 import site00 from "../assets/img/site00.png";
 import site01 from "../assets/img/site01.png";
 import site02 from "../assets/img/site02.png";
@@ -45,15 +46,15 @@ export const introText = {
 
 export const designText = [
     {
-        text: ["B2C", "website"],
-        title: "소비자 친화적 웹사이트",
-        desc: "반응형 화면을 고려한 디자인으로 메인과 판매 페이지 두 가지 주요 사항을 중점으로 디자인 했다.",
-        design: "https://www.figma.com/design/6KvL80wqXs522G9eoL74GU/B2C_web?node-id=0-1&t=3RJ0eFLLm7I4aDYh-1",
+        text: ["Research", "Wiki"],
+        title: "논문인용 및 검사문항 자체 개발 목적 웹사이트",
+        desc: "일반적인 논문 검색과 스크랩 기능을 포함해 웹 사이트에서 직접 검사 문항 구성하고 출시심사를 제안 할 수 있도록해 개발루트 확장예상",
+        design: "https://xd.adobe.com/view/c7a185e6-bef5-4e46-ad8f-4a42063132a1-92f2/",
         view: "",
-        img: site00,
+        img: site001,
         info: [
-            "화면기획/ 웹디자인",
-            "작업 : 1주",
+            "화면 기획/ 웹디자인",
+            "작업 : 4주",
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
     },
@@ -119,6 +120,19 @@ export const designText = [
         info: [
             "화면기획/ 웹디자인",
             "작업 : 4달",
+            "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
+        ],
+    },
+    {
+        text: ["B2C", "website"],
+        title: "소비자 친화적 웹사이트",
+        desc: "반응형 화면을 고려한 디자인으로 메인과 판매 페이지 두 가지 주요 사항을 중점으로 디자인 했다.",
+        design: "https://www.figma.com/design/6KvL80wqXs522G9eoL74GU/B2C_web?node-id=0-1&t=3RJ0eFLLm7I4aDYh-1",
+        view: "",
+        img: site00,
+        info: [
+            "화면기획/ 웹디자인",
+            "작업 : 1주",
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
     },

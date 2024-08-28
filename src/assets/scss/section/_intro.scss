@@ -101,7 +101,7 @@
     
         .title_inner_text{
             display: flex;
-            font-size: 2.4vw;
+            font-size: 3vh;
             color: #b2b4ff;
             line-height: 4rem;
             margin: 0 0 0 2.2rem;
@@ -112,7 +112,7 @@
         }
         .title_inner_logo{
             display: flex;
-            width: 80%;
+            width: 90%;
             height: auto;
             margin: 0 auto;
             background-image: url(https://i.ibb.co/GkDF5Yn/10837-2x.png);
@@ -146,6 +146,7 @@
         color: #b2b4ff;
         border: 1px solid #b2b4ff;
         border-radius: 12px;
+        margin-top: 4vw;
         padding: 5vh;
         transition: all 0.2s;
         justify-content: space-around;
