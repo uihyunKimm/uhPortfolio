@@ -41,7 +41,7 @@ export const headerNav = [
 
 export const introText = {
     title: "frontend developer",
-    desc: ["화면기획자 경력 3년","탄탄한 기획 위에 감각적인 인터페이스를 그리는 김의현입니다.", "직관적인 UI와 기억에 남는 UX를 기획하고, 개발하려고 노력합니다.", "도메인 지식을 바탕으로 개발의 범위를 늘려나가고 있습니다."]
+    desc: ["UX/UI 디자이너 경력 3년","탄탄한 분석 후에 설득력이 있는 인터페이스를 설계하는 김의현입니다.", "사용자를 우선의 데이터로 직관적인 UI와 기억에 남는 UX를 기획하고, 개발하려고 노력합니다.", "도메인 지식을 바탕으로 UX디자인의 범위를 넓혀나가고 있습니다."]
 }
 
 export const designText = [
@@ -84,7 +84,7 @@ export const designText = [
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
     },
-    {
+    /* {
         text: ["chatbot Solution Development", "admin/user"],
         title: "챗봇 관리자/사용자 환경 제작",
         desc: "관리자 환경과 사용자 환경을 모두 고려해 제작했다. 타사와의 협업을 통해 소통하는 과정에서 부분적인 화면구성을 전달할 기회가 많았는데, 화면기획서 외에 관리자와 챗봇 파트만 디자인했다.",
@@ -96,10 +96,10 @@ export const designText = [
             "작업 : 1달",
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
-    },
+    }, */
     {
         text: ["mobile", "system development"],
-        title: "모바일 검사환경 구현",
+        title: "모바일 검사환경 개선",
         desc: "웹 표준화 버전으로 모바일 검사를 가로형태로 화면을 돌려 진행하던 이전에서 모바일, 터치 형태의 화면을 전체 구성해 템플릿 확립함.",
         design: "https://xd.adobe.com/view/ebaabb2d-2e23-4a82-a8e4-34bfd92f03c3-bef9/",
         view: "",
@@ -110,7 +110,7 @@ export const designText = [
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
     },
-    {
+    /* {
         text: ["tablet", "system development"],
         title: "태블릿 검사환경 구현",
         desc: "웹/터치 환경 혼용 가능성이 있는 환경에 대한 템플릿 구축. 태블릿 환경에서 손가락에 가리지 않을 수 있도록 직접 테스트하며 환경을 개선해나감.",
@@ -135,7 +135,7 @@ export const designText = [
             "작업 : 1주",
             "활용 프로그램 : powerpoint, XD, HTML5/CSS3",
         ],
-    },
+    }, */
     {
         text: ["macoo", "B2B2C E-commerce"],
         title: "macoo point랜덤지급 도시락 쇼핑몰",
@@ -194,7 +194,7 @@ export const portText = [
         view: "https://github.com/uihyunKimm/todoapp",
         name: "Hi 앱",
     },
-    {
+    /* {
         num: "05",
         subtitle: "아동검사",
         title: "Kid_Test_Demo",
@@ -203,7 +203,7 @@ export const portText = [
         code: "https://kuh-kidtest.netlify.app/",
         view: "https://github.com/uihyunKimm/kidtest",
         name: "아동검사",
-    },
+    }, */
     
 ];
 
@@ -221,17 +221,17 @@ export const contactText = [
 export const footerText = [
     {
         title: "github",
-        desc: "깃헙에서 더 많은 소스를 볼 수 있습니다.",
+        desc: "깃헙에서 퍼블리싱에 대해 공부한 내용을 업로드하고 있습니다.",
         link: "https://github.com/uihyunKimm",
     },
     {
         title: "notion",
-        desc: "노션에서 더 많은 소개글을 볼 수 있습니다.",
+        desc: "노션에서 기획에 대한 내용을 정리 중입니다.",
         link: "https://www.notion.so/79716d060c534ed6abf53370aa95e5d7",
     },
     {
         title: "blog",
-        desc: "블로그에서 공부한 내용을 볼 수 있습니다.",
+        desc: "블로그에서 UX 방법론을 공부하고 정리한 내용을 볼 수 있습니다.",
         link: "https://uihkk.tistory.com",
     },
 ];

@@ -7,7 +7,7 @@ const Site = () => {
     return (
         <section id="site">
             <div className="site__inner">
-                <h2 className="site__title">Web Design <em>나의 작업물</em></h2>
+                <h2 className="site__title">UX/UI Design <em>기획/ 디자인 작업물</em></h2>
                 <div className="site__wrap">
                     {designText.map((design, key) => (
                         <article className={`site__item s${key+1}`} key={key}>

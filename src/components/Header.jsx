@@ -11,7 +11,7 @@ import { headerNav } from "../constants";
       <header id="header" role="banner">
         <div className="header__inner">
           <div className="header__logo">
-            <a href="/">2024 portfolio<em>화면기획/ 웹디자인 경력 개발자</em></a>
+            <a href="/">2024 portfolio<em>3년차 UX/UI디자이너</em></a>
           </div>
           <div className="header__email">
             <a href="mailto:dmlxld@gmail.com" target="_blank">dmlxld@gmail.com</a>
