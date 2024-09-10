@@ -28,7 +28,9 @@ const Site = () => {
                                 <br/>
                                 <div className="btn">
                                     <a href={design.design}>design</a>&nbsp;
-                                    {design.view === "" ? <a></a>:<a href={design.view}>view</a>}
+                                    {design.view === "" ? "":<a href={design.view}>view</a>}
+                                    {design.pdf === "" ? "":<a href={design.pdf}>pdf</a>}
+                                    {design.prop === "" ? "":<a href={design.prop}>prop</a>}
                                 </div>
                             </div>
                             <div className="info">

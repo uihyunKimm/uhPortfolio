@@ -45,7 +45,7 @@ const Intro = () => {
                     <div className="flowWrap">KIM UI HYUN. KIM UI HYUN. KIM UI HYUN. </div>
                 </div>
                 <div className="title_inner">
-                    <div className="title_inner_text">숫자로 설명이 되며 군더더기 없는 인터페이스를 추구하는</div>
+                    <div className="title_inner_text">근거있고 군더더기 없는 인터페이스를 추구하는</div>
                     <svg className="title_inner_logo" xmlns="http://www.w3.org/2000/svg" width="1312.332" height="214.12" viewBox="0 0 1312.332 214.12">
                         <g id="그룹_10837" data-name="그룹 10837" transform="translate(-1523.055 668.41)">
                             <path id="패스_35821" data-name="패스 35821" d="M99.375,3.71c47.965,0,75.79-26.765,75.79-91.955V-196.1h-37.63V-84.8c0,41.075-14.84,54.59-38.16,54.59s-37.1-13.515-37.1-54.59V-196.1H23.055V-88.245C23.055-23.055,51.675,3.71,99.375,3.71ZM209.085-196.1V0H248.3V-196.1Z" transform="translate(1500 -458)" fill="#fff"/>
@@ -61,9 +61,7 @@ const Intro = () => {
                     <div className="title_text_2">
                         지원직무
                         <div className="text">
-                            <div className="str">UX/UI 디자이너</div>
-                            <br/>
-                            <br/>
+                            <div className="str">UX/UI <br/>디자이너</div>
                             <br/>
                         </div>
                     </div>

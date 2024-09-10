@@ -3,6 +3,7 @@ import port02 from "../assets/img/port02.png";
 import port03 from "../assets/img/port03.png";
 import port04 from "../assets/img/port04.png";
 import port05 from "../assets/img/port05.png";
+import port06 from "../assets/img/port06.png";
 import site001 from "../assets/img/site001.png";
 import site00 from "../assets/img/site00.png";
 import site01 from "../assets/img/site01.png";
@@ -41,7 +42,7 @@ export const headerNav = [
 
 export const introText = {
     title: "frontend developer",
-    desc: ["UX/UI 디자이너 경력 3년","탄탄한 분석 후에 설득력이 있는 인터페이스를 설계하는 김의현입니다.", "사용자를 우선의 데이터로 직관적인 UI와 기억에 남는 UX를 기획하고, 개발하려고 노력합니다.", "도메인 지식을 바탕으로 UX디자인의 범위를 넓혀나가고 있습니다."]
+    desc: ["UX/UI 디자이너 경력 3년","근거 있는 UX/UI를 설계하는 김의현입니다.", "큰 거 있는 UI와 임팩트 있는 UX를 위해 끝없이 노력하겠습니다.", "UX디자인의 방법론에 대해 계속 배우고 적용해보며 범위를 넓혀나가고 있습니다."]
 }
 
 export const designText = [
@@ -50,6 +51,8 @@ export const designText = [
         title: "논문인용 및 검사문항 자체 개발 목적 웹사이트",
         desc: "일반적인 논문 검색과 스크랩 기능을 포함해 웹 사이트에서 직접 검사 문항 구성하고 출시심사를 제안 할 수 있도록해 개발루트 확장예상",
         design: "https://xd.adobe.com/view/c7a185e6-bef5-4e46-ad8f-4a42063132a1-92f2/",
+        prop: "",
+        pdf: "https://drive.google.com/file/d/1mj1HpLlqelacnVswbC-t4NKF8ZOBtjrh/view?usp=sharing",
         view: "",
         img: site001,
         info: [
@@ -63,6 +66,8 @@ export const designText = [
         title: "아동기억능력 검사 프로그램",
         desc: "앱 환경으로 기획 및 디자인이 되었고, 실시부터 설정 페이지까지 터치환경에 대해 고민하며 디자인을 진행할 수 있었다.",
         design: "https://xd.adobe.com/view/058a7220-7cf9-49b9-afd1-f5c8538d71d5-50d9/",
+        prop: "",
+        pdf: "https://drive.google.com/file/d/1V5dJJ0NDfW1vD-ZGppNKmg6y7LIJ9Ire/view?usp=sharing",
         view: "",
         img: site02,
         info: [
@@ -76,6 +81,8 @@ export const designText = [
         title: "검사대상 표집 웹사이트",
         desc: "희망자들의 신청을 수락해 예약을 확정하고 대상 외 자격자들의 신청 순위를 낮추는 등 관리자 페이지에서의 기능을 많이 고민하며 기획 및 디자인했다.",
         design: "https://xd.adobe.com/view/cda55327-7555-413c-a8bf-9d557b477a64-98f6/",
+        prop: "",
+        pdf: "https://drive.google.com/file/d/1C35Jb-mbNt923I4ERh-UdyI149AXhTj6/view?usp=sharing",
         view: "https://standpro.kr/",
         img: site03,
         info: [
@@ -102,6 +109,8 @@ export const designText = [
         title: "모바일 검사환경 개선",
         desc: "웹 표준화 버전으로 모바일 검사를 가로형태로 화면을 돌려 진행하던 이전에서 모바일, 터치 형태의 화면을 전체 구성해 템플릿 확립함.",
         design: "https://xd.adobe.com/view/ebaabb2d-2e23-4a82-a8e4-34bfd92f03c3-bef9/",
+        prop: "",
+        pdf: "https://drive.google.com/file/d/1003vzhTRDz2oBjNLzfpuqG7YrygHu0TS/view?usp=sharing",
         view: "",
         img: site04,
         info: [
@@ -141,7 +150,9 @@ export const designText = [
         title: "macoo point랜덤지급 도시락 쇼핑몰",
         desc: "오픈마켓(O2O) + 소셜커머스 + B2C 장점을 합친 B2B2C E-commerce 컨셉. 창업 초기에 작업해, 초기 실력을 확인할 수 있으며 포인트 차등 환급 시스템을 구현",
         design: "https://xd.adobe.com/view/1c8d2237-cf32-44b1-b78e-97d71b13616a-49de/",
-        view: "https://drive.google.com/file/d/1HRaLM-zjezHIZ5yuUFZMG6PCWWdZqQgi/view?usp=drive_link",
+        prop: "https://drive.google.com/file/d/1HRaLM-zjezHIZ5yuUFZMG6PCWWdZqQgi/view?usp=drive_link",
+        view:"",
+        pdf: "https://drive.google.com/file/d/1tnam5_sG7whtt-URhqNsPMDb-LIqVT9H/view?usp=sharing",
         img: site06,
         info: [
             "화면기획/ 웹디자인",
@@ -193,6 +204,16 @@ export const portText = [
         code: "",
         view: "https://github.com/uihyunKimm/todoapp",
         name: "Hi 앱",
+    },
+    {
+        num: "06",
+        subtitle: "푸르다플라워",
+        title: "화환 발주관리 시스템",
+        desc: "디자인 외주를 받은 발주관리 시스템을 보고 단순화하여 클론 코딩을 진행했다. bootstrap 외 다양한 라이브러리를 경험해보고 공부하는데 도움이 됨",
+        img: port06,
+        code: "https://furdaflower.netlify.app/intra.html/",
+        view: "https://furdaflower.netlify.app/intra.html/",
+        name: "아동검사",
     },
     /* {
         num: "05",

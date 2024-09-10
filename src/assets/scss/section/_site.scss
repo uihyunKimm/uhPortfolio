@@ -33,8 +33,9 @@
     align-items: center;
     justify-content:space-around;
     position: sticky;
-    background-color: var(--white);
+    background-color: #ffffff0e;
     filter: drop-shadow(4px 4px 6px #4042c985);
+    padding: 0 3vh;
 }
 .site__item:nth-child(1) {
     top: 22vh;
@@ -61,31 +62,37 @@
     align-items: center;
     justify-content: center;
     width: 35%;
+    color: #fff;
+    padding: 0 0 0 3vh;
 }
 .site__item .num {
     font-size: 4vw;
     line-height: 1;
-    font-weight: 900;
+    font-weight: 400;
     font-family: var(--mainNum-font);
     position: absolute;
-    left: 1.5vw;
+    left: 3vw;
     top: 1.5vw;
+    color: #8789ff;
+}
+.site__item .num h3, h4{
+    color: #b0b2ff;
 }
 .site__item img {
-    width: 60vh;
-    height: 35vh;
+    width: 55vh;
+    height: auto;
     object-fit: cover;
+    border-radius: 8px;
 }
 .site__item .text {
     margin-bottom: 1rem;
 }
 .site__item .text > div {
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 1;
     font-weight: 900;
     text-transform: uppercase;
-    text-decoration: underline;
-    font-family: var(--mainEng-font);
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif'
 }
 .site__item .text > div:last-child {
     margin-bottom: 1vh;
@@ -94,21 +101,25 @@
     font-family: var(--mainKor-font);
     margin-bottom: 2vw;
 }
+.site__item .right .btn {
+    width: 100%;
+}
 .site__item .btn a {
     text-decoration: none;
-    border: 1px solid white;
     border-radius: 2rem;
-    padding: 0.8rem 1.8rem;
+    padding: 0.8vh 1.8vh;
     text-transform: uppercase;
-    color: #555aff;
-    font-size: 1.3rem;
+    color: #ffffff;
+    border: 1px solid #adb0ff;
+    font-size: 1.1vh;
     font-weight: 600;
     transition: all 0.3s;
-    margin-right: 1rem;
+    margin-right: .4rem;
 }
 .site__item .btn a:hover {
     color: var(--white);
-    background-color: #555aff;
+    color: #7f83ff;
+    background-color: #e7e8ff;
 }
 .site__item .info {
     position: absolute;
@@ -116,21 +127,22 @@
     bottom: 3%;
     width: 90%;
     margin-left: 5%;
-    border-top: 1px solid var(--black);
-    border-bottom: 1px solid var(--black);
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5vw;
 }
 .site__item .info span {
     font-family: var(--mainKor-font);
+    color: #b0b2ff;
     font-size: 12px;
     padding: 3px 0;
     text-transform: uppercase;
     margin: 0.1rem 1rem;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     .site__title {
         width: 100%;
         margin-bottom: 10vw;
@@ -156,14 +168,16 @@
                 display: none;
             }
             img {
-                width: 30vh;
-                height: 20vh;
+                width: 32vh;
+                height: max-content;
                 object-fit: fill;
+                margin-bottom: 2vh;
             }
             .right{
                 width: 100%;
                 padding: 1rem;
                 .text{
+                    color: #fff;
                     width: 100%;
                     justify-content: center;
                 }

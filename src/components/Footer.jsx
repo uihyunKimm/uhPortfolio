@@ -1,4 +1,5 @@
 import React from "react";
+import { IoIosArrowForward } from "react-icons/io";
 
 import { footerText } from "../constants";
 
@@ -9,8 +10,8 @@ const Footer = () => {
           <div className="container">
             <div className="footer__inner">
               <div className="footer__text">
-                <span>uihyumkimm</span>
-                <span>© webs</span>
+                <span></span>
+                <span>© uihyumkimm</span>
               </div>
               <div className="footer__info">
                 <div className="left">
@@ -25,7 +26,8 @@ const Footer = () => {
                     {footerText.map((footer, key) => (
                       <li key={key}>
                           <a href={footer.link}>{footer.title}</a>
-                          <em>{footer.desc}</em>
+                          <div className="em">{footer.desc}</div>
+                          <a href={footer.link}><IoIosArrowForward /></a>
                       </li>
                     ))}
                   </ul>
